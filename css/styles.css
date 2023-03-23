@@ -19,8 +19,21 @@ body{
     height: 80vh;
 }
 
+.bg-grey {
+    background-color: rgb(106, 105, 105);
+}
 
 
+.text-brown {
+    color: rgb(250, 203, 142);
+}
+.btn-brown {
+    border: solid 2px rgb(250, 203, 142);
+}
+.btn-brown:hover {
+    background-color: rgb(250, 203, 142);
+    color: black;
+}
 
 /*Media queries*/
 /* @media screen and (min-width:480px) and (max-width:940px){
