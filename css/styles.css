@@ -11,6 +11,9 @@ body{
 .hidden {
     display: none;
 }
+.hidden-2 {
+    display: none;
+}
 
 .card-img-central {
     background-image: url(../assets/Logo/imagenCentral.png);
@@ -22,17 +25,40 @@ body{
 .bg-grey {
     background-color: rgb(106, 105, 105);
 }
-
+.bg-brown-dark {
+    background-color: rgb(92, 66, 30);
+}
+.bg-brown {
+    background-color: rgb(250, 203, 142);
+}
 
 .text-brown {
     color: rgb(250, 203, 142);
 }
+.text-brown-dark {
+    color: rgb(92, 66, 30);
+}
+
+
 .btn-brown {
     border: solid 2px rgb(250, 203, 142);
 }
 .btn-brown:hover {
     background-color: rgb(250, 203, 142);
     color: black;
+}
+
+.btn-brown-dark {
+    border: solid 2px rgb(92, 66, 30);
+}
+.btn-brown-dark:hover {
+    background-color:  rgb(92, 66, 30);
+    color: white;
+}
+
+.img-recipe {
+    height: 300px;
+    width: 400px;
 }
 
 /*Media queries*/
@@ -47,6 +73,12 @@ body{
     .mobile-logo {
         display: none;
     }
+    .hidden-1 {
+        display: none;
+    }
+    .hidden-2 {
+        display: flex;
+    }
 }
 
 @media screen and (min-width:1301px){
@@ -54,6 +86,9 @@ body{
         display: block;
     }
     .mobile-logo {
+        display: none;
+    }
+    .hidden-1 {
         display: none;
     }
 }
