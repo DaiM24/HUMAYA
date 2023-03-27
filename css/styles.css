@@ -61,6 +61,12 @@ body{
     width: 400px;
 }
 
+.networks {
+    color: white;
+}
+.networks:hover {
+    color: rgb(250, 203, 142);
+}
 /*Media queries*/
 /* @media screen and (min-width:480px) and (max-width:940px){
     
